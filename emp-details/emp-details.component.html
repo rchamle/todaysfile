@@ -1,0 +1,14 @@
+<div *ngIf="employee">
+    <h2>{{employee.ename}} Details</h2>
+    <div>
+        <label>ID:</label>
+        <output>{{employee.id}}</output>
+    </div>
+    <div>
+        <label>Employee Name</label>
+        <input type ="text" [(ngModel)]="employee.ename">
+    </div>
+    <button (click)="goBack()">Go Back</button>
+
+    
+</div>

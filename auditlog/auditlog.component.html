@@ -1,0 +1,7 @@
+<div *ngIf="loggerservice.logmessages.length">
+    <h2> Audit Logs </h2>
+    <button class="btn btn-danger" (click)="loggerservice.clear()">
+        Clear Audit Logs
+    </button>
+    <div *ngFor = "let m of loggerservice.logmessages">{{m}}</div>
+</div>

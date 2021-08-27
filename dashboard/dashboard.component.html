@@ -1,0 +1,6 @@
+<h2> Top 5 Employees </h2>
+<div class="jumbotron">
+    <a routerLink = "/details/{{emp.id}}"  *ngFor = "let emp of employees" class="btn btn-dark">
+        {{emp.ename}}
+    </a>
+</div>

@@ -1,0 +1,11 @@
+<h2> Employees </h2>
+<ul class="employees">
+    
+    <!-- <li *ngFor = "let e of empdata" (click)="selectemp(e)"> -->
+        <li *ngFor = "let e of empdata" (click)="selectemp(e)">
+        <a routerLink="/details/{{e.id}}">
+        <span class="empspan" >{{e.id}}</span> {{e.ename}}
+    </a>
+    </li>
+</ul>
+

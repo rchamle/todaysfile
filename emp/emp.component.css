@@ -1,0 +1,23 @@
+.employees{
+    list-style-type: none;
+    margin:0 0 2em 0;
+    width: 15em;
+}
+.employees li{
+    position:relative;
+    border-radius: 4px;
+    background-color: #EEE;
+    left:0
+}
+
+.employees li:hover{
+    color:tomato;
+    background-color: wheat;
+    left: .1em;
+}
+
+.employees .empspan{
+    display: inline-block;
+    color:red;
+
+}
